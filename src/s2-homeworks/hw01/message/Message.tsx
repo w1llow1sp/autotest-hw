@@ -1,18 +1,11 @@
 import React from 'react'
 import s from './Message.module.css'
+import {MessageType} from "../HW1";
 
 // нужно создать правильный тип вместо any
 export type MessagePropsType = {
-    message :
-        {    id:number,
-            user : {
-                avatar:string,
-                name:string
-            }
-            message : {
-                text:string,
-                time:string
-            }}}
+    message : MessageType
+        }
 
 
 // нужно отобразить приходящие данные
