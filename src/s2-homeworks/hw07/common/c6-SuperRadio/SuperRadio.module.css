@@ -1,15 +1,48 @@
+:root {
+    --form-control-color: black;
+}
+
 .radio {
+    appearance: none;
+    background-color: #FFFFFF;
+    margin: 0;
+
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(0.15em);
 }
 
 .radio::before {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
 }
 
 
 .radio:checked::before {
+    transform: scale(1);
 }
 
 .label {
+    position: relative;
+    padding-bottom: 0.3rem;
+    margin: 0;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+
 }
