@@ -1,23 +1,65 @@
 .item {
+    border-bottom: 1px solid black; /* Линия снизу */
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+    margin: 0;
+    padding-top: 23px;
+    width: 100%;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
 }
 
 .buttonsContainer {
+    padding-top: 33px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
 }
 
 .container {
+
+    padding-left: 70px;
+
 }
 
 .thead {
+
+    background: #E5E5E5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
 }
 
 .nameCol {
+    border-bottom: 1px solid #E5E5E5; /* Линия снизу */
+    padding:10px 15px;
 }
 
 .ageCol {
+
+    font-weight: bold;
+    border-bottom: 1px solid #E5E5E5; /* Линия снизу */
+    padding: 10px 15px;
+
+}
+
+tr {
+
 }
