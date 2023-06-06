@@ -1,8 +1,58 @@
+/*.container {*/
+/*    max-width: 300px;*/
+/*}*/
+
+/*.wrapper {*/
+/*    display: flex;*/
+/*}*/
+
+/*.number {*/
+/*    padding: 13px;*/
+/*}*/
+
 .container {
+    max-width: 300px;
+    margin: 0;
 }
 
 .wrapper {
+    display: flex;
+    align-items: center; /* Добавьте это свойство для выравнивания элементов */
+    justify-content: start;
 }
 
 .number {
+    padding: 13px;
+    margin: 0;
+    margin: 0;
+    font-weight: bold; /* Добавьте это свойство для выделения чисел */
 }
+
+/* Добавьте следующие стили для ползунков */
+.MuiSlider-thumb {
+    color: #00CC22;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(29, 33, 38, 0.13), 0px 0px 2px rgba(29, 33, 38, 0.1);
+    border: 1px solid #00CC22;
+    width: 18px; /* Добавьте эту ширину для точки ползунка */
+    height: 18px; /* Добавьте эту высоту для точки ползунка */
+    margin-top: -7px; /* Добавьте это смещение для точки ползунка */
+}
+
+/* Добавьте следующие стили для дополнительной точки внутри ползунка */
+.MuiSlider-thumb.MuiSlider-active {
+    background: #01CB22;
+}
+
+.MuiSlider-thumb.MuiSlider-active::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #01CB22;
+}
+
