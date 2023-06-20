@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/autotest-hw/static/css/main.2966aa98.css",
-    "main.js": "/autotest-hw/static/js/main.ac66ed03.js",
+    "main.css": "/autotest-hw/static/css/main.c79cbe53.css",
+    "main.js": "/autotest-hw/static/js/main.fc70a171.js",
     "static/js/787.f5f26a1f.chunk.js": "/autotest-hw/static/js/787.f5f26a1f.chunk.js",
     "static/media/avatar.png": "/autotest-hw/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/autotest-hw/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
@@ -10,12 +10,12 @@
     "index.html": "/autotest-hw/index.html",
     "static/media/checked.svg": "/autotest-hw/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "static/media/burger.svg": "/autotest-hw/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.2966aa98.css.map": "/autotest-hw/static/css/main.2966aa98.css.map",
-    "main.ac66ed03.js.map": "/autotest-hw/static/js/main.ac66ed03.js.map",
+    "main.c79cbe53.css.map": "/autotest-hw/static/css/main.c79cbe53.css.map",
+    "main.fc70a171.js.map": "/autotest-hw/static/js/main.fc70a171.js.map",
     "787.f5f26a1f.chunk.js.map": "/autotest-hw/static/js/787.f5f26a1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2966aa98.css",
-    "static/js/main.ac66ed03.js"
+    "static/css/main.c79cbe53.css",
+    "static/js/main.fc70a171.js"
   ]
 }
