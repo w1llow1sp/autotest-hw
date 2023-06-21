@@ -9,8 +9,8 @@ import error500 from './images/500.svg'
 import errorUnknown from './images/error.svg'
 
 /*
-* 1 - дописать функцию send
-* 2 - дизэйблить кнопки пока идёт запрос
+* 1 - дописать функцию send    *
+* 2 - дизэйблить кнопки пока идёт запрос    *
 * 3 - сделать стили в соответствии с дизайном
 * */
 
@@ -69,7 +69,7 @@ const HW13 = () => {
                         onClick={send(true)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={info === "...loading"}
                     >
                         Send true
                     </SuperButton>
@@ -78,7 +78,7 @@ const HW13 = () => {
                         onClick={send(false)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={info === "...loading"}
                     >
                         Send false
                     </SuperButton>
@@ -87,7 +87,7 @@ const HW13 = () => {
                         onClick={send(undefined)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={info === "...loading"}
                     >
                         Send undefined
                     </SuperButton>
@@ -96,7 +96,7 @@ const HW13 = () => {
                         onClick={send(null)} // имитация запроса на не корректный адрес
                         xType={'secondary'}
                         // дописать
-
+                        disabled={info === "...loading"}
                     >
                         Send null
                     </SuperButton>
@@ -123,5 +123,3 @@ const HW13 = () => {
         </div>
     )
 }
-
-export default HW13
